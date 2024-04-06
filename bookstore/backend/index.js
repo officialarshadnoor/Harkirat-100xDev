@@ -8,7 +8,7 @@ import userRoute from "./route/user.route.js";
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Specify the origin(s) that are allowed to access the server
+  origin: "https://book-store-lime-five.vercel.app", // Specify the origin(s) that are allowed to access the server
   methods: "GET,POST", // Specify the HTTP methods that are allowed
   allowedHeaders: "Content-Type,Authorization", // Specify which headers are allowed in the request
 };
